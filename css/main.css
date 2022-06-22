@@ -416,12 +416,24 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+.menu-icon {
+  display: block;
+  background: url("../media/svg/ham-menu.svg");
+  color: white;
+  width: 25px;
+  height: 30px;
+}
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
     position: absolute;
     left: 5px;
     bottom: 35%;
+  }
+
+  .menu-icon {
+    display: none;
   }
 
   .mobile-icon {
