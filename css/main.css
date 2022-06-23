@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -50,7 +51,6 @@ header {
   height: 12px;
   color: white;
 }
-
 
 #toggle-menu {
   display: block;
@@ -86,11 +86,7 @@ header {
   position: absolute;
   right: 20px;
   top: 20px;
-} 
-
-
-
-
+}
 
 main {
   display: flex;
