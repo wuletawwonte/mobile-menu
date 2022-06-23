@@ -11,15 +11,28 @@
   <body>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <div class="menu-icon"></div>
+      <div id="toggle-menu"></div>
+      <div class="mobile-menu">
+        <img
+          class="close-icon"
+          src="./media/IconCancel.svg"
+          alt=""
+          onclick="mobileMenu()"
+        />
+        <div class="menu-list">
+          <ul>
+            <li><a href="#portfolio" onclick="menuLink()"> Portfolio </a></li>
+            <li><a href="#about-me" onclick="menuLink()"> About </a></li>
+            <li><a href="#contact-me" onclick="menuLink()"> Contact </a></li>
+          </ul>
+        </div>
+      </div>
       <nav id="desktop-nav">
         <ul>
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
           <li><a class="nav-link" href="#about-me">About</a></li>
           <li>
-            <a class="nav-link" href="#contact"
-              >Contact <i class="far fa-envelope"></i
-            ></a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

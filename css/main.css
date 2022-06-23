@@ -51,6 +51,43 @@ header {
   color: white;
 }
 
+
+#toggle-menu {
+  display: block;
+  background: url("../media/svg/ham-menu.svg");
+  color: white;
+  width: 25px;
+  height: 30px;
+}
+
+.mobile-menu {
+  padding: 100px 0 0 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 232;
+  background-color: #3c3a39;
+  height: 700px;
+  transition: 0.5s ease-in;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.close-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+} 
+
+
+
+
+
 main {
   display: flex;
   flex-direction: column;
@@ -414,14 +451,6 @@ textarea {
   filter:
     invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
     brightness(92%) contrast(82%);
-}
-
-.menu-icon {
-  display: block;
-  background: url("../media/svg/ham-menu.svg");
-  color: white;
-  width: 25px;
-  height: 30px;
 }
 
 @media all and (min-width: 720px) {
