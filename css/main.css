@@ -62,7 +62,7 @@ header {
 
 .mobile-menu {
   padding: 100px 0 0 0;
-  display: block;
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -71,6 +71,10 @@ header {
   background-color: #3c3a39;
   height: 700px;
   transition: 0.5s ease-in;
+}
+
+.mobile-menu.active {
+  display: block;
 }
 
 .mobile-menu a {
