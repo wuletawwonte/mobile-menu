@@ -453,6 +453,10 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+.menu-list a {
+  text-decoration: underline;
+}
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
