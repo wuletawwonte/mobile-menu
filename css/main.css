@@ -67,6 +67,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100vh;
   z-index: 232;
   background-color: #3c3a39;
   height: 700px;
@@ -455,6 +456,14 @@ textarea {
 
 .menu-list a {
   text-decoration: underline;
+}
+
+.container {
+  display: block;
+}
+
+.container.active {
+  display: none;
 }
 
 @media all and (min-width: 720px) {
