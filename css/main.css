@@ -461,7 +461,7 @@ textarea {
     bottom: 35%;
   }
 
-  .menu-icon {
+  #toggle-menu {
     display: none;
   }
 
